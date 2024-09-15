@@ -40,14 +40,14 @@ const items1 = [
 ];
 </script>
 <template>
-  <div class="flex place-content-center mt-[170px]">
+  <div class="flex place-content-center mt-[170px] px-5">
     <div class="flex flex-col gap-[50px]">
       <div class="text-[40px] text-center font-bold">User Testimonials</div>
-      <div class="grid grid-cols-3 gap-[18px]">
+      <div class="grid xl:grid-cols-3 min-[710px]:grid-cols-2 grid-cols-1 gap-[18px]">
         <div
           v-for="item in items1"
           :key="item.id"
-          class="px-[24px] py-[24px] bg-[#141414] w-[387px] rounded-2xl"
+          class="px-[24px] py-[24px] bg-[#141414] max-w-[387px] rounded-2xl"
         >
           <div class="flex flex-col text-[12px] text-[#B3B3B3]">
             <div class="text-[36px] leading-[30px]">“</div>

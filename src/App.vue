@@ -1,12 +1,12 @@
 <script setup>
-import UseHeader from './components/UseHeader.vue';
-import UseMain from './components/UseMain.vue';
-import UseTeams from './components/UseTeams.vue';
 import UseBigCard from './components/UseBigCard.vue';
-import UseMinCard from './components/UseMinCard.vue';
-import UseTree from './components/UseTree.vue';
 import UseBuilding from './components/UseBuilding.vue';
 import UseFooter from './components/UseFooter.vue';
+import UseHeader from './components/UseHeader.vue';
+import UseMain from './components/UseMain.vue';
+import UseMinCard from './components/UseMinCard.vue';
+import UseTeams from './components/UseTeams.vue';
+import UseTree from './components/UseTree.vue';
 </script>
 
 <template>
@@ -20,8 +20,10 @@ import UseFooter from './components/UseFooter.vue';
         <UseMinCard />
         <UseTree />
         <UseBuilding />
-        <UseFooter />
       </div>
+    </div>
+    <div class="">
+      <UseFooter />
     </div>
   </div>
 </template>

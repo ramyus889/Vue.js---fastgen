@@ -1,4 +1,5 @@
 <script setup>
+import UseDrawer from './UseDrawer.vue';
 import UseMenuBar from './UseMenuBar.vue';
 </script>
 
@@ -32,13 +33,14 @@ import UseMenuBar from './UseMenuBar.vue';
             ></path>
           </svg>
         </a>
-        <div class="flex gap-[8px] items-center">
+        <div class="lg:flex hidden gap-[8px] items-center">
           <UseMenuBar />
           <a href="#" class="px-[16px] font-bold text-[14px]">Prising</a>
           <a href="#" class="px-[16px] font-bold text-[14px]">Blog</a>
         </div>
       </div>
-      <div class="flex items-center gap-5">
+      <div class="block lg:hidden"><UseDrawer /></div>
+      <div class="lg:flex hidden items-center gap-5">
         <a href="#" class="font-bold px-[24px]">Contact Us</a>
         <a href="#" class="font-bold px-[24px]">Login</a>
 

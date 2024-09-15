@@ -50,10 +50,10 @@ const items = [
 ];
 </script>
 <template>
-  <footer class="flex place-content-center mt-[170px]">
+  <footer class="flex place-content-center mt-[170px] px-5">
     <div class="">
-      <div class="grid grid-cols-5 gap-10 border-b border-slate-800 pb-10">
-        <div v-for="item in items" :key="item.id" class="flex flex-col gap-5 w-[208px]">
+      <div class="flex flex-wrap gap-10 border-b border-slate-800 pb-10">
+        <div v-for="item in items" :key="item.id" class="flex flex-col gap-5 lg:w-[208px]">
           <div class="text-[18px] font-bold">{{ item.text }}</div>
           <div class="flex flex-col gap-2">
             <a href="#" class="text-[14px]">{{ item.link1 }}</a>
@@ -65,7 +65,7 @@ const items = [
           </div>
         </div>
       </div>
-      <div class="flex justify-between my-[40px]">
+      <div class="flex sm:flex-row flex-col gap-5 justify-between my-[40px]">
         <div class="flex items-center gap-4">
           <div class="">
             <svg

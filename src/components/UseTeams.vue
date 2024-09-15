@@ -1,9 +1,9 @@
 <script setup></script>
 <template>
-  <div class="flex place-content-center mt-[170px]">
+  <div class="flex place-content-center mt-[170px] px-5">
     <div class="">
       <div class="mb-[32px] font-bold text-center">Trusted by thousands of teams</div>
-      <div class="flex gap-10">
+      <div class="flex place-content-center flex-wrap gap-10">
         <div class="">
           <svg
             width="121"

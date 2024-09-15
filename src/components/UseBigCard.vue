@@ -41,10 +41,12 @@ const items4 = [
 ];
 </script>
 <template>
-  <div class="flex place-content-center mt-[170px]">
+  <div class="flex place-content-center mt-[170px] px-5">
     <div class="">
       <div class="flex flex-col gap-4">
-        <div class="text-[40px] text-center font-bold">4 steps to customize your business apps</div>
+        <div class="sm:text-[40px] text-[30px] text-center font-bold">
+          4 steps to customize your business apps
+        </div>
         <div class="flex place-content-center">
           <div class="max-w-[487px] text-center text-[14px]">
             Build tools through drag-and-drop components, customize your AI Agent, connect to your
@@ -56,13 +58,19 @@ const items4 = [
       <div
         v-for="item in items1"
         :key="item.id"
-        class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex gap-10 mt-[32px] border border-[#2A2A2A]"
+        class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex max-[710px]:flex-col gap-10 mt-[32px] border border-[#2A2A2A]"
       >
-        <img :src="item.image" :alt="item.title" class="w-[532px]" />
+        <img
+          :src="item.image"
+          :alt="item.title"
+          class="lg:w-[532px] w-[300px] object-cover rounded-2xl"
+        />
         <div class="flex flex-col gap-[30px]">
           <div class="flex flex-col">
-            <div class="text-[36px] font-bold">{{ item.dotNumber }}.</div>
-            <div class="text-[36px] leading-[44px] font-bold">{{ item.title }}</div>
+            <div class="lg:text-[36px] text-[25px] font-bold">{{ item.dotNumber }}.</div>
+            <div class="lg:text-[36px] text-[25px] lg:leading-[44px] leading-[34px] font-bold">
+              {{ item.title }}
+            </div>
           </div>
           <div class="text-[14px]">{{ item.text }}</div>
           <div class="">
@@ -91,12 +99,14 @@ const items4 = [
       <div
         v-for="item in items2"
         :key="item.id"
-        class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex gap-10 mt-[32px] border border-[#2A2A2A]"
+        class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex max-[710px]:flex-col-reverse gap-10 mt-[32px] border border-[#2A2A2A]"
       >
         <div class="flex flex-col gap-[30px]">
           <div class="flex flex-col">
-            <div class="text-[36px] font-bold">{{ item.dotNumber }}.</div>
-            <div class="text-[36px] leading-[44px] font-bold">{{ item.title }}</div>
+            <div class="lg:text-[36px] text-[25px] font-bold">{{ item.dotNumber }}.</div>
+            <div class="lg:text-[36px] text-[25px] lg:leading-[44px] leading-[34px] font-bold">
+              {{ item.title }}
+            </div>
           </div>
           <div class="text-[14px]">{{ item.text }}</div>
           <div class="">
@@ -120,19 +130,29 @@ const items4 = [
             </a>
           </div>
         </div>
-        <img :src="item.image" :alt="item.title" class="w-[532px]" />
+        <img
+          :src="item.image"
+          :alt="item.title"
+          class="lg:w-[532px] w-[300px] object-cover rounded-2xl"
+        />
       </div>
 
       <div
         v-for="item in items3"
         :key="item.id"
-        class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex gap-10 mt-[32px] border border-[#2A2A2A]"
+        class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex max-[710px]:flex-col gap-10 mt-[32px] border border-[#2A2A2A]"
       >
-        <img :src="item.image" :alt="item.title" class="w-[532px]" />
+        <img
+          :src="item.image"
+          :alt="item.title"
+          class="lg:w-[532px] w-[300px] object-cover rounded-2xl"
+        />
         <div class="flex flex-col gap-[30px]">
           <div class="flex flex-col">
-            <div class="text-[36px] font-bold">{{ item.dotNumber }}.</div>
-            <div class="text-[36px] leading-[44px] font-bold">{{ item.title }}</div>
+            <div class="lg:text-[36px] text-[25px] font-bold">{{ item.dotNumber }}.</div>
+            <div class="lg:text-[36px] text-[25px] lg:leading-[44px] leading-[34px] font-bold">
+              {{ item.title }}
+            </div>
           </div>
           <div class="text-[14px]">{{ item.text }}</div>
           <div class="">
@@ -161,12 +181,14 @@ const items4 = [
       <div
         v-for="item in items4"
         :key="item.id"
-        class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex gap-10 mt-[32px] border border-[#2A2A2A]"
+        class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex max-[710px]:flex-col-reverse gap-10 mt-[32px] border border-[#2A2A2A]"
       >
         <div class="flex flex-col gap-[30px]">
           <div class="flex flex-col">
-            <div class="text-[36px] font-bold">{{ item.dotNumber }}.</div>
-            <div class="text-[36px] leading-[44px] font-bold">{{ item.title }}</div>
+            <div class="lg:text-[36px] text-[25px] font-bold">{{ item.dotNumber }}.</div>
+            <div class="lg:text-[36px] text-[25px] lg:leading-[44px] leading-[34px] font-bold">
+              {{ item.title }}
+            </div>
           </div>
           <div class="text-[14px]">{{ item.text }}</div>
           <div class="">
@@ -190,7 +212,11 @@ const items4 = [
             </a>
           </div>
         </div>
-        <img :src="item.image" :alt="item.title" class="w-[532px]" />
+        <img
+          :src="item.image"
+          :alt="item.title"
+          class="lg:w-[532px] w-[300px] object-cover rounded-2xl"
+        />
       </div>
     </div>
   </div>

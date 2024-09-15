@@ -1,8 +1,10 @@
 <script setup></script>
 <template>
-  <div class="flex place-content-center mt-[164px]">
+  <div class="flex place-content-center mt-[164px] px-5">
     <div class="flex flex-col gap-3">
-      <div class="text-[80px] leading-[88px] text-center font-bold">
+      <div
+        class="md:text-[80px] text-[40px] md:leading-[88px] leading-[40px] text-center font-bold"
+      >
         Create business apps like assembling blocks
       </div>
       <div class="text-center font-semibold mt-3">
