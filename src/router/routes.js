@@ -16,7 +16,7 @@ export const routes = [
     component: UseHome
   },
   {
-    path: '/Pages/illa-flow',
+    path: '/illa-flow',
     component: AppFlow
   },
   {
