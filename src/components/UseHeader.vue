@@ -33,7 +33,9 @@ import UseDrawer from './UseDrawer.vue';
           </svg>
         </RouterLink>
         <div class="lg:flex hidden gap-[8px] items-center">
-          <RouterLink to="/illa-flow" class="px-[16px] font-bold text-[14px]">ILLA Flow</RouterLink>
+          <RouterLink to="/Pages/illa-flow" class="px-[16px] font-bold text-[14px]"
+            >ILLA Flow</RouterLink
+          >
           <RouterLink to="/Integrations" class="px-[16px] font-bold text-[14px]"
             >Integrations</RouterLink
           >
