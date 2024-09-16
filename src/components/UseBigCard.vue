@@ -32,7 +32,7 @@ const items3 = [
 const items4 = [
   {
     id: 4,
-    image: '/illaflow.webp',
+    image: '/flow/illaflow.webp',
     title: 'Automate your Workflow',
     dotNumber: 4,
     text: 'Use ILLA Flow to automate your workflow to ensure you always have the latest data and reduce repetitive tasks.',
@@ -63,7 +63,7 @@ const items4 = [
         <img
           :src="item.image"
           :alt="item.title"
-          class="lg:w-[532px] w-[300px] object-cover rounded-2xl"
+          class="lg:w-[532px] w-[300px] max-[410px]:w-full object-cover rounded-2xl"
         />
         <div class="flex flex-col gap-[30px]">
           <div class="flex flex-col">
@@ -133,7 +133,7 @@ const items4 = [
         <img
           :src="item.image"
           :alt="item.title"
-          class="lg:w-[532px] w-[300px] object-cover rounded-2xl"
+          class="lg:w-[532px] w-[300px] max-[410px]:w-full object-cover rounded-2xl"
         />
       </div>
 
@@ -145,7 +145,7 @@ const items4 = [
         <img
           :src="item.image"
           :alt="item.title"
-          class="lg:w-[532px] w-[300px] object-cover rounded-2xl"
+          class="lg:w-[532px] w-[300px] max-[410px]:w-full object-cover rounded-2xl"
         />
         <div class="flex flex-col gap-[30px]">
           <div class="flex flex-col">
@@ -215,7 +215,7 @@ const items4 = [
         <img
           :src="item.image"
           :alt="item.title"
-          class="lg:w-[532px] w-[300px] object-cover rounded-2xl"
+          class="lg:w-[532px] w-[300px] max-[410px]:w-full object-cover rounded-2xl"
         />
       </div>
     </div>

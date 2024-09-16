@@ -8,7 +8,7 @@ import UseDataSource from './components/UseDataSource.vue';
 <template>
   <div class="">
     <div class="flex place-content-center">
-      <div class="max-w-[1200px]">
+      <div class="max-w-[1200px] px-5">
         <UseDataSource />
         <UseDatabase />
         <UseBuilding />
