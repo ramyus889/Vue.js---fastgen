@@ -1,7 +1,12 @@
-import AppComponent from '@/Pages/AppComponents/AppComponent.vue';
-import AppBlog from '@/Pages/Blog/AppBlog.vue';
 import AppIntegrations from '@/Pages/Integrations/AppIntegrations.vue';
-import AppPricing from '@/Pages/Pricing/AppPricing.vue';
+import UseAppwrite from '@/Pages/Integrations/dataComponents/UseAppwrite.vue';
+import UseMariaDB from '@/Pages/Integrations/dataComponents/UseMariaDB.vue';
+import UseMongoDB from '@/Pages/Integrations/dataComponents/UseMongoDB.vue';
+import UseMySQL from '@/Pages/Integrations/dataComponents/UseMySQL.vue';
+import UseOracle from '@/Pages/Integrations/dataComponents/UseOracle.vue';
+import UsePostgreSQL from '@/Pages/Integrations/dataComponents/UsePostgreSQL.vue';
+import UseRedis from '@/Pages/Integrations/dataComponents/UseRedis.vue';
+import UseTiDB from '@/Pages/Integrations/dataComponents/UseTiDB.vue';
 import UseHome from '@/RouteComponents/UseHome.vue';
 import AppFlow from '../Pages/illaFlow/AppFlow.vue';
 
@@ -19,15 +24,35 @@ export const routes = [
     component: AppIntegrations
   },
   {
-    path: '/app-components',
-    component: AppComponent
+    path: '/mysql',
+    component: UseMySQL
   },
   {
-    path: '/pricing',
-    component: AppPricing
+    path: '/PostgreSQL',
+    component: UsePostgreSQL
   },
   {
-    path: '/blog',
-    component: AppBlog
+    path: '/MongoDB',
+    component: UseMongoDB
+  },
+  {
+    path: '/MariaDB',
+    component: UseMariaDB
+  },
+  {
+    path: '/TiDB',
+    component: UseTiDB
+  },
+  {
+    path: '/Redis',
+    component: UseRedis
+  },
+  {
+    path: '/Appwrite',
+    component: UseAppwrite
+  },
+  {
+    path: '/Oracle',
+    component: UseOracle
   }
 ];

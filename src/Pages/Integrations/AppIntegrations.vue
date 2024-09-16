@@ -1,16 +1,16 @@
 <script setup>
-import UseBuilding from '../../components/UseBuilding.vue';
-import UseFooter from '../../components/UseFooter.vue';
-import UseMinCard from '../../components/UseMinCard.vue';
-import UseTree from '../../components/UseTree.vue';
+import UseBuilding from '@/components/UseBuilding.vue';
+import UseFooter from '@/components/UseFooter.vue';
+import UseDatabase from './components/UseDatabase.vue';
+import UseDataSource from './components/UseDataSource.vue';
 </script>
 
 <template>
   <div class="">
     <div class="flex place-content-center">
       <div class="max-w-[1200px]">
-        <UseTree />
-        <UseMinCard />
+        <UseDataSource />
+        <UseDatabase />
         <UseBuilding />
       </div>
     </div>

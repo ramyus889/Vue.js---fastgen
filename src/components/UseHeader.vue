@@ -37,11 +37,6 @@ import UseDrawer from './UseDrawer.vue';
           <RouterLink to="/Integrations" class="px-[16px] font-bold text-[14px]"
             >Integrations</RouterLink
           >
-          <RouterLink to="/app-components" class="px-[16px] font-bold text-[14px]"
-            >components</RouterLink
-          >
-          <RouterLink to="/pricing" class="px-[16px] font-bold text-[14px]">Prising</RouterLink>
-          <RouterLink to="/blog" class="px-[16px] font-bold text-[14px]">Blog</RouterLink>
         </div>
       </div>
       <div class="block lg:hidden"><UseDrawer /></div>
