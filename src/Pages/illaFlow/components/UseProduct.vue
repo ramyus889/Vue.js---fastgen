@@ -19,10 +19,10 @@
     </div>
   </div>
   <div class="mt-[40px] flex flex-col gap-5">
-    <div class="flex gap-3 bg-white pt-[40px] ps-[40px] rounded-[8px]">
+    <div class="flex lg:flex-row flex-col gap-3 bg-white pt-[40px] ps-[40px] rounded-[8px]">
       <div class="flex flex-col gap-2">
-        <div class="text-[24px] font-bold text-black">Centralize resources</div>
-        <div class="text-[#787e85]">
+        <div class="md:text-[24px] text-[18px] font-bold text-black">Centralize resources</div>
+        <div class="text-[#787e85] md:text-[16px] text-[14px]">
           Centralize your resources and address your business needs in one place.
         </div>
       </div>
@@ -30,11 +30,11 @@
         <img src="/flow/design1.webp" alt="" />
       </div>
     </div>
-    <div class="flex gap-5">
+    <div class="flex lg:flex-row flex-col gap-5">
       <div class="flex flex-col gap-3 bg-white pt-[40px] ps-[40px] rounded-[8px]">
         <div class="flex flex-col gap-2">
-          <div class="text-[24px] font-bold text-black">More intelligent</div>
-          <div class="text-[#787e85]">
+          <div class="md:text-[24px] text-[18px] font-bold text-black">More intelligent</div>
+          <div class="text-[#787e85] md:text-[16px] text-[14px]">
             Integration with AI Agent, make the workflow more intelligent.
           </div>
         </div>
@@ -44,8 +44,12 @@
       </div>
       <div class="flex flex-col gap-3 bg-white pt-[40px] ps-[40px] rounded-[8px]">
         <div class="flex flex-col gap-2">
-          <div class="text-[24px] font-bold text-black">Integrate with ILLA Builder</div>
-          <div class="text-[#787e85]">Enhance the power of your internal tools.</div>
+          <div class="md:text-[24px] text-[18px] font-bold text-black">
+            Integrate with ILLA Builder
+          </div>
+          <div class="text-[#787e85] md:text-[16px] text-[14px]">
+            Enhance the power of your internal tools.
+          </div>
         </div>
         <div class="">
           <img src="/flow/design3.webp" alt="" />

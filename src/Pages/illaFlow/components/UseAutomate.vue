@@ -18,12 +18,20 @@
     </div>
   </div>
   <div class="mt-[80px]">
-    <div class="flex gap-5">
-      <div class=""><img src="/flow/automate.webp" alt="" class="bg-white rounded-[8px]" /></div>
+    <div class="flex xl:flex-row flex-col gap-5">
+      <div class="flex place-content-center">
+        <img
+          src="/flow/automate.webp"
+          alt=""
+          class="bg-white rounded-[8px] max-[1280px]:w-[465px]"
+        />
+      </div>
       <div class="flex flex-col gap-5">
         <img src="/flow/automate2.webp" alt="" class="bg-white rounded-[8px]" />
-        <div class="flex gap-3 object-cover bg-white rounded-[8px] ps-[30px] pt-[26px]">
-          <div class="text-[#1d2129] text-[18px] font-bold leading-[19px]">
+        <div
+          class="flex sm:flex-row sm:justify-between flex-col sm:gap-3 gap-5 object-cover bg-white rounded-[8px] ps-[30px] pt-[15px]"
+        >
+          <div class="text-[#1d2129] text-[16px] min-[450px]:text-[18px] font-bold leading-[19px]">
             E-commerial: bulk update product description
           </div>
           <img src="/flow/automate3.webp" alt="" class="bg-white rounded-[8px] w-[389px]" />

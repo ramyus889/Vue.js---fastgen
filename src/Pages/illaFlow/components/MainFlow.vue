@@ -7,7 +7,7 @@
       >
         ILLA Flow
       </div>
-      <div class="text-[64px] leading-[70px] font-bold mt-[16px]">
+      <div class="md:text-[64px] text-[32px] md:leading-[70px] leading-[38px] font-bold mt-[16px]">
         Surpassing developers' expectations, effortlessly automating workflows
       </div>
       <div class="max-w-[304px] mt-[40px]">

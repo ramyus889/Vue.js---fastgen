@@ -11,7 +11,7 @@ import UseTrigger from './components/UseTrigger.vue';
 <template>
   <div class="">
     <div class="flex place-content-center mb-20">
-      <div class="max-w-[1200px]">
+      <div class="max-w-[1200px] px-5">
         <MainFlow />
         <UseTrigger />
         <UseAutomate />

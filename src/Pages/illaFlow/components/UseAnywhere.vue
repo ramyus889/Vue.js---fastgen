@@ -17,8 +17,10 @@
       </div>
     </div>
   </div>
-  <div class="flex">
-    <div class="mt-[80px] bg-white rounded-l-[8px] pt-[40px] border-r border-slate-500">
+  <div class="flex md:flex-row flex-col">
+    <div
+      class="mt-[80px] bg-white md:rounded-l-[8px] rounded-l-[0px] md:rounded-t-[0px] rounded-t-[8px] pt-[40px] md:border-r border-r-0 mb:border-b-0 border-b border-slate-500"
+    >
       <div class="flex flex-col px-[40px]">
         <div class="text-[#28DC97] font-semibold text-[18px]">Transformer</div>
         <div class="text-[#1d2129] text-[18px] font-semibold">
@@ -29,7 +31,9 @@
         <img src="/flow/codeLeft.webp" alt="" />
       </div>
     </div>
-    <div class="mt-[80px] bg-white rounded-r-[8px] pt-[40px]">
+    <div
+      class="md:mt-[80px] bg-white md:rounded-r-[8px] rounded-r-[0px] md:rounded-b-[0px] rounded-b-[8px] pt-[40px]"
+    >
       <div class="flex flex-col px-[40px]">
         <div class="text-[#28DC97] font-semibold text-[18px]">
           <span class="text-[#1d2129]">Write</span> JS Code
