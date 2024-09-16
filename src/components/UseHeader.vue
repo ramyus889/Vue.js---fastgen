@@ -1,6 +1,5 @@
 <script setup>
 import UseDrawer from './UseDrawer.vue';
-import UseMenuBar from './UseMenuBar.vue';
 </script>
 
 <template>
@@ -9,7 +8,7 @@ import UseMenuBar from './UseMenuBar.vue';
       class="flex justify-between px-[40px] py-[15px] items-center backdrop-filter backdrop-blur-[15px] bg-black bg-opacity-50"
     >
       <div class="flex items-center gap-5">
-        <a href="#">
+        <RouterLink to="/">
           <svg
             width="43"
             height="20"
@@ -32,16 +31,21 @@ import UseMenuBar from './UseMenuBar.vue';
               fill="#fff"
             ></path>
           </svg>
-        </a>
+        </RouterLink>
         <div class="lg:flex hidden gap-[8px] items-center">
-          <UseMenuBar />
-          <a href="#" class="px-[16px] font-bold text-[14px]">Prising</a>
-          <a href="#" class="px-[16px] font-bold text-[14px]">Blog</a>
+          <RouterLink to="/illa-flow" class="px-[16px] font-bold text-[14px]">ILLA Flow</RouterLink>
+          <RouterLink to="/Integrations" class="px-[16px] font-bold text-[14px]"
+            >Integrations</RouterLink
+          >
+          <RouterLink to="/app-components" class="px-[16px] font-bold text-[14px]"
+            >components</RouterLink
+          >
+          <RouterLink to="/pricing" class="px-[16px] font-bold text-[14px]">Prising</RouterLink>
+          <RouterLink to="/blog" class="px-[16px] font-bold text-[14px]">Blog</RouterLink>
         </div>
       </div>
       <div class="block lg:hidden"><UseDrawer /></div>
       <div class="lg:flex hidden items-center gap-5">
-        <a href="#" class="font-bold px-[24px]">Contact Us</a>
         <a href="#" class="font-bold px-[24px]">Login</a>
 
         <a

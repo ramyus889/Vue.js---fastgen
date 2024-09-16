@@ -1,0 +1,21 @@
+<script setup></script>
+<template>
+  <div class="flex place-content-center mt-[160px]">
+    <div class="">
+      <div
+        class="text-[24px] text-start bg-gradient-to-r from-[#24FFFF] to-[#C5FFFF] bg-clip-text text-transparent font-bold"
+      >
+        ILLA Flow
+      </div>
+      <div class="text-[64px] leading-[70px] font-bold mt-[16px]">
+        Surpassing developers' expectations, effortlessly automating workflows
+      </div>
+      <div class="max-w-[304px] mt-[40px]">
+        <button class="py-[14px] w-full bg-[#654aec] rounded-[8px]">Get Started for free</button>
+      </div>
+      <div class="">
+        <img src="/flow/screen1.png" alt="" class="mt-[300px]" />
+      </div>
+    </div>
+  </div>
+</template>

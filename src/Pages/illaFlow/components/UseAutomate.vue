@@ -1,0 +1,34 @@
+<script setup></script>
+<template>
+  <div class="flex place-content-start mt-[300px]">
+    <div class="">
+      <div
+        class="text-[24px] text-start bg-gradient-to-r from-[#24FFFF] to-[#C5FFFF] bg-clip-text text-transparent font-bold"
+      >
+        How it works
+      </div>
+      <div class="w-full">
+        <div class="text-[56px] leading-[67px] font-bold mt-[16px] max-w-[479px]">
+          Automate anything
+          <div class="text-[20px] leading-[24px] mt-[32px]">
+            ILLA Flow allow to integrate with any databases or apis to automate any task you need.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-[80px]">
+    <div class="flex gap-5">
+      <div class=""><img src="/flow/automate.webp" alt="" class="bg-white rounded-[8px]" /></div>
+      <div class="flex flex-col gap-5">
+        <img src="/flow/automate2.webp" alt="" class="bg-white rounded-[8px]" />
+        <div class="flex gap-3 object-cover bg-white rounded-[8px] ps-[30px] pt-[26px]">
+          <div class="text-[#1d2129] text-[18px] font-bold leading-[19px]">
+            E-commerial: bulk update product description
+          </div>
+          <img src="/flow/automate3.webp" alt="" class="bg-white rounded-[8px] w-[389px]" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

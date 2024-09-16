@@ -7,30 +7,34 @@
 <script setup>
 import Menubar from 'primevue/menubar';
 import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 const items = ref([
   {
     label: 'Products',
     items: [
       {
-        label: 'ILLA Flow'
-        // command: () => {}
+        label: 'ILLA Flow',
+        command: () => router.push({ name: 'illa-flow' })
       },
       {
-        label: 'Integrations'
-        // command: () => {}
+        label: 'Integrations',
+        command: () => router.push({ name: 'integrations' })
       },
       {
-        label: 'Components'
-        // command: () => {}
+        label: 'Components',
+        command: () => router.push({ name: 'components' })
       }
     ]
   }
 ]);
 </script>
+
 <style scoped>
 .usebg-transparent {
-  background-color: transparent !important; /* Убедитесь, что фон прозрачный */
+  background-color: transparent !important;
   border: 0 !important;
   font-weight: 900 !important;
   font-size: 14px !important;
