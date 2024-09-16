@@ -56,7 +56,7 @@ const items2 = [
 ];
 </script>
 <template>
-  <div class="flex place-content-center w-full mt-[150px]">
+  <div class="flex place-content-center w-full mt-[150px] px-5">
     <div class="max-w-[1240px]">
       <div class="">
         <RouterLink to="/integrations" class="text-[#654AEC] text-[18px] hover:underline"
@@ -83,7 +83,7 @@ const items2 = [
           </button>
         </div>
       </div>
-      <div class="mt-[90px]">
+      <div class="mt-[120px]">
         <div class="text-[#654AEC] text-[18px]">feature</div>
         <div class="mt-[24px] text-[32px] font-bold leading-[56px]">
           What sets ILLA Cloud apart from others?
@@ -94,7 +94,7 @@ const items2 = [
           internal tools with drag-and-drop components in real time.
         </div>
 
-        <div class="mt-[40px] flex flex-wrap gap-8">
+        <div class="mt-[40px] flex sm:place-content-start place-content-center flex-wrap gap-8">
           <div v-for="item in items" :key="item.id" class="flex flex-col gap-3">
             <div class=""><img :src="item.image" alt="" /></div>
             <div class="font-bold">{{ item.title }}</div>

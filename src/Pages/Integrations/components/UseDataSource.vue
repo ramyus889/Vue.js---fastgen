@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="flex flex-col gap-7">
-    <div class="flex gap-7 mt-[160px] items-center">
+    <div class="flex lg:flex-row flex-col gap-10 mt-[160px] items-center">
       <div class="flex flex-col gap-4 max-w-[570px]">
         <div class="text-[48px] leading-[56px] font-bold">Connect to any data source</div>
         <div class="leading-[24px]">
@@ -16,7 +16,7 @@
     </div>
     <div class="">
       <button
-        class="px-[32px] py-[10px] bg-[#654AEC] text-white rounded-[8px] font-bold text-[20px]"
+        class="lg:px-[32px] lg:w-[15rem] w-full lg:mt-[0px] mt-[40px] py-[10px] bg-[#654AEC] text-white rounded-[8px] font-bold text-[20px]"
       >
         Try for Free
       </button>
