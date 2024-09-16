@@ -41,8 +41,6 @@ import UseDrawer from './UseDrawer.vue';
       </div>
       <div class="block lg:hidden"><UseDrawer /></div>
       <div class="lg:flex hidden items-center gap-5">
-        <a href="#" class="font-bold px-[24px]">Login</a>
-
         <a
           href="#"
           class="relative duration-500 group cursor-pointer text-sky-50 overflow-hidden h-12 w-52 rounded-2xl bg-sky-800 p-2 flex justify-center items-center font-extrabold"
