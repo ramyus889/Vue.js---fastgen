@@ -3,21 +3,27 @@
   <div class="flex place-content-start mt-[300px]">
     <div class="">
       <div
+        data-aos="fade-up"
+        data-aos-delay="100"
         class="text-[24px] text-start bg-gradient-to-r from-[#24FFFF] to-[#C5FFFF] bg-clip-text text-transparent font-bold"
       >
         How it works
       </div>
       <div class="w-full">
-        <div class="text-[56px] leading-[67px] font-bold mt-[16px] max-w-[479px]">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          class="text-[56px] leading-[67px] font-bold mt-[16px] max-w-[479px]"
+        >
           Code Anywhere
-          <div class="text-[20px] leading-[24px] mt-[32px]">
+          <div data-aos="fade-up" data-aos-delay="500" class="text-[20px] leading-[24px] mt-[32px]">
             Write JavaScript to customize the format of data and implement more functions.
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="flex md:flex-row flex-col">
+  <div data-aos="fade-up" data-aos-delay="100" class="flex md:flex-row flex-col">
     <div
       class="mt-[80px] bg-white md:rounded-l-[8px] rounded-l-[0px] md:rounded-t-[0px] rounded-t-[8px] pt-[40px] md:border-r border-r-0 mb:border-b-0 border-b border-slate-500"
     >
