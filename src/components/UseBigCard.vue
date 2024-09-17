@@ -44,11 +44,19 @@ const items4 = [
   <div class="flex place-content-center mt-[170px] px-5">
     <div class="">
       <div class="flex flex-col gap-4">
-        <div class="sm:text-[40px] text-[30px] text-center font-bold">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="sm:text-[40px] text-[30px] text-center font-bold"
+        >
           4 steps to customize your business apps
         </div>
         <div class="flex place-content-center">
-          <div class="max-w-[487px] text-center text-[14px]">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="max-w-[487px] text-center text-[14px]"
+          >
             Build tools through drag-and-drop components, customize your AI Agent, connect to your
             data sources, and make AI a smart tool tailored to your needs and data, making your work
             more intelligent.
@@ -56,6 +64,8 @@ const items4 = [
         </div>
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-delay="300"
         v-for="item in items1"
         :key="item.id"
         class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex max-[710px]:flex-col gap-10 mt-[32px] border border-[#2A2A2A]"
@@ -97,6 +107,8 @@ const items4 = [
       </div>
 
       <div
+        data-aos="fade-up"
+        data-aos-delay="300"
         v-for="item in items2"
         :key="item.id"
         class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex max-[710px]:flex-col-reverse gap-10 mt-[32px] border border-[#2A2A2A]"
@@ -138,6 +150,8 @@ const items4 = [
       </div>
 
       <div
+        data-aos="fade-up"
+        data-aos-delay="300"
         v-for="item in items3"
         :key="item.id"
         class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex max-[710px]:flex-col gap-10 mt-[32px] border border-[#2A2A2A]"
@@ -179,6 +193,8 @@ const items4 = [
       </div>
 
       <div
+        data-aos="fade-up"
+        data-aos-delay="300"
         v-for="item in items4"
         :key="item.id"
         class="bg-[#121212] px-[49px] py-[49px] rounded-2xl flex max-[710px]:flex-col-reverse gap-10 mt-[32px] border border-[#2A2A2A]"

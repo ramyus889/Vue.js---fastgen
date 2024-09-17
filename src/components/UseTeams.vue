@@ -2,9 +2,11 @@
 <template>
   <div class="flex place-content-center mt-[170px] px-5">
     <div class="">
-      <div class="mb-[32px] font-bold text-center">Trusted by thousands of teams</div>
+      <div data-aos="fade-up" data-aos-delay="100" class="mb-[32px] font-bold text-center">
+        Trusted by thousands of teams
+      </div>
       <div class="flex place-content-center flex-wrap gap-10">
-        <div class="">
+        <div data-aos="fade-up" data-aos-delay="300" class="">
           <svg
             width="121"
             height="40"
@@ -19,7 +21,7 @@
             ></path>
           </svg>
         </div>
-        <div class="">
+        <div data-aos="fade-up" data-aos-delay="500" class="">
           <svg
             width="121"
             height="40"
@@ -46,7 +48,7 @@
             </defs>
           </svg>
         </div>
-        <div class="">
+        <div data-aos="fade-up" data-aos-delay="700" class="">
           <svg
             width="171"
             height="40"
@@ -67,7 +69,7 @@
             </defs>
           </svg>
         </div>
-        <div class="">
+        <div data-aos="fade-up" data-aos-delay="900" class="">
           <svg
             width="194"
             height="40"
@@ -89,7 +91,7 @@
             </defs>
           </svg>
         </div>
-        <div class="">
+        <div data-aos="fade-up" data-aos-delay="1000" class="">
           <svg
             width="41"
             height="40"
@@ -104,7 +106,7 @@
             ></path>
           </svg>
         </div>
-        <div class="">
+        <div data-aos="fade-up" data-aos-delay="1200" class="">
           <svg
             width="33"
             height="40"
