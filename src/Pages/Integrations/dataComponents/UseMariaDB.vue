@@ -59,13 +59,21 @@ const items2 = [
   <div class="flex place-content-center w-full mt-[150px] px-5">
     <div class="max-w-[1240px]">
       <div class="">
-        <RouterLink to="/integrations" class="text-[#654AEC] text-[18px] hover:underline"
+        <RouterLink
+          to="/integrations"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="text-[#654AEC] text-[18px] hover:underline"
           >{{ '<' }} Back to integrations</RouterLink
         >
-        <div class="mt-[52px] text-[48px] font-bold leading-[56px]">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          class="mt-[52px] text-[48px] font-bold leading-[56px]"
+        >
           Connect to MariaDB with ILLA Cloud and build internal tools in just a few clicks.
         </div>
-        <div class="mt-[40px]">
+        <div data-aos="fade-up" data-aos-delay="500" class="mt-[40px]">
           With ILLA Cloud's MariaDB integration, you can quickly and easily configure and connect to
           your MariaDB database to optimize your data management and streamline your workflows.The
           integration simplifies data management using SQL, allowing you to manipulate tables,
@@ -77,24 +85,40 @@ const items2 = [
           of your data source and enhance your productivity with minimal effort.
         </div>
         <div class="mt-[40px]">
-          <button class="py-[10px] px-[32px] font-bold bg-[#654aec] rounded-[8px] text-[20px]">
+          <button
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="py-[10px] px-[32px] font-bold bg-[#654aec] rounded-[8px] text-[20px]"
+          >
             Build with MariaDB
           </button>
         </div>
       </div>
       <div class="mt-[120px]">
-        <div class="text-[#654AEC] text-[18px]">feature</div>
-        <div class="mt-[24px] text-[32px] font-bold leading-[56px]">
+        <div data-aos="fade-up" data-aos-delay="100" class="text-[#654AEC] text-[18px]">
+          feature
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          class="mt-[24px] text-[32px] font-bold leading-[56px]"
+        >
           What sets ILLA Cloud apart from others?
         </div>
-        <div class="mt-[24px]">
+        <div data-aos="fade-up" data-aos-delay="400" class="mt-[24px]">
           ILLA Cloud's SQL Generate feature and JavaScript freedom, along with its seamless
           integration with databases and APIs, make it an efficient tool for developers building
           internal tools with drag-and-drop components in real time.
         </div>
 
         <div class="mt-[40px] flex sm:place-content-start place-content-center flex-wrap gap-8">
-          <div v-for="item in items" :key="item.id" class="flex flex-col gap-3">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="500"
+            v-for="item in items"
+            :key="item.id"
+            class="flex flex-col gap-3"
+          >
             <div class=""><img :src="item.image" alt="" /></div>
             <div class="font-bold">{{ item.title }}</div>
             <div class="max-w-[270px]">{{ item.text }}</div>
@@ -102,18 +126,30 @@ const items2 = [
         </div>
       </div>
       <div class="mt-[90px]">
-        <div class="text-[#654AEC] text-[18px]">Templates</div>
-        <div class="mt-[24px] text-[32px] font-bold leading-[56px]">
+        <div data-aos="fade-up" data-aos-delay="100" class="text-[#654AEC] text-[18px]">
+          Templates
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          class="mt-[24px] text-[32px] font-bold leading-[56px]"
+        >
           What can you build with ILLA?
         </div>
-        <div class="mt-[24px]">
+        <div data-aos="fade-up" data-aos-delay="500" class="mt-[24px]">
           ILLA Cloud offers a variety of components, such as tables, charts, forms, lists, etc.
           Users can easily build dashboards, admin panels, survey forms, and more using these
           components.
         </div>
 
         <div class="mt-[40px] flex flex-wrap gap-12">
-          <div v-for="item in items2" :key="item.id" class="flex flex-col gap-3">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="600"
+            v-for="item in items2"
+            :key="item.id"
+            class="flex flex-col gap-3"
+          >
             <div class=""><img :src="item.image" alt="" width="368px" height="251px" /></div>
             <div class="font-bold">{{ item.title }}</div>
             <div class="max-w-[360px]">{{ item.text }}</div>

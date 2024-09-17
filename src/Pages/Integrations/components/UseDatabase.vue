@@ -59,9 +59,11 @@ const items = [
 ];
 </script>
 <template>
-  <div class="font-bold text-[20px] mt-[100px] mb-[30px]">Database Integrations</div>
+  <div data-aos="fade-up" data-aos-delay="300" class="font-bold text-[20px] mt-[100px] mb-[30px]">
+    Database Integrations
+  </div>
   <div class="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7">
-    <div v-for="item in items" :key="item.id" class="">
+    <div data-aos="fade-up" data-aos-delay="100" v-for="item in items" :key="item.id" class="">
       <div class="px-[32px] py-[32px] bg-[#FAFBFC] opacity-80 rounded-[16px] flex flex-col gap-3">
         <div class=""><img :src="item.image" alt="" /></div>
         <div class="text-[#1D2129] font-semibold text-[18px]">{{ item.title }}</div>
