@@ -26,19 +26,19 @@
         </div>
       </TabList>
       <TabPanels>
-        <TabPanel value="0" as="p" class="px-10 py-10">
-          <img src="/Create API.webp" alt="" />
+        <TabPanel value="0" as="p" class="transition-all duration-500">
+          <img src="/Create API.webp" alt="" class="" />
         </TabPanel>
-        <TabPanel value="1" as="p" class="px-10 py-10">
+        <TabPanel value="1" as="p" class="transition-all duration-500">
           <img src="/debug.webp" alt="" />
         </TabPanel>
-        <TabPanel value="2" as="p" class="px-10 py-10">
+        <TabPanel value="2" as="p" class="transition-all duration-500">
           <img src="/logging.webp" alt="" />
         </TabPanel>
-        <TabPanel value="3" as="p" class="px-10 py-10">
+        <TabPanel value="3" as="p" class="transition-all duration-500">
           <img src="/Cronjobs.webp" alt="" />
         </TabPanel>
-        <TabPanel value="4" as="p" class="px-10 py-10">
+        <TabPanel value="4" as="p" class="transition-all duration-500">
           <img src="/Databasewebp.webp" alt="" />
         </TabPanel>
       </TabPanels>
