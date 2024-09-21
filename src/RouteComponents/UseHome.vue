@@ -1,6 +1,7 @@
 <script setup>
 import UseBackedCard from '@/components/UseBackedCard.vue';
 import UseCreateAPI from '@/components/UseCreateAPI.vue';
+import UseDebugAPI from '@/components/UseDebugAPI.vue';
 import UseMain from '@/components/UseMain.vue';
 </script>
 
@@ -10,6 +11,7 @@ import UseMain from '@/components/UseMain.vue';
       <UseMain />
       <UseBackedCard />
       <UseCreateAPI />
+      <UseDebugAPI />
     </div>
   </div>
 </template>

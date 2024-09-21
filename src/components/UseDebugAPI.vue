@@ -2,24 +2,24 @@
 const items = [
   {
     id: 1,
-    name: 'Create',
-    logo: '/GroupPlus.svg',
-    image: '/GroupCard.webp',
-    description: 'Create REST endoints, set up auth & validation rules.'
+    name: 'Test',
+    logo: '/IconTest.svg',
+    image: '/imgTest.webp',
+    description: 'Send test requests with unique headers, auth and parameters.'
   },
   {
     id: 2,
-    name: 'Build',
-    logo: '/GroupMagic.svg',
-    image: '/GroupBuild.webp',
-    description: 'Connect APIs, third party tools, DB queries and responses.'
+    name: 'Understand',
+    logo: '/iconSearch.svg',
+    image: '/imgSearch.webp',
+    description: 'Get details for each action and understand what’s happening.'
   },
   {
     id: 3,
-    name: 'Deploy',
-    logo: '/GroupStar.svg',
-    image: '/GroupDeploy.webp',
-    description: 'Deploy with a click of a button. No devops. We host for you.'
+    name: 'Fix',
+    logo: '/IconFix.svg',
+    image: '/imgFix.webp',
+    description: 'Fix whatever is broken in your routes instantly in the UI.'
   }
 ];
 </script>
@@ -27,11 +27,12 @@ const items = [
   <div class="flex place-content-center mt-[135px] px-5">
     <div class="">
       <div class="text-center text-[46px] font-[900]">
-        Create APIs in
         <span
-          class="bg-gradient-to-t to-[#6e7dff] from-white bg-clip-text text-transparent font-[900]"
-          >lightning speed</span
-        >
+          class="bg-gradient-to-t to-[#9765F5] from-[#E459DB] bg-clip-text text-transparent font-[900]"
+          >Debug
+        </span>
+        your APIs, <br />
+        cron jobs & workflows
       </div>
       <div
         class="flex lg:flex-nowrap flex-wrap place-content-center items-center gap-[31px] mt-[32px]"
