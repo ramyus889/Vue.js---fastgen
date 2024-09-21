@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none"><script xmlns=""/>
+<path d="M16 2V12C16 13.125 15.0938 14 14 14H2C0.875 14 0 13.125 0 12V2C0 0.90625 0.875 0 2 0H14C15.0938 0 16 0.90625 16 2ZM3 4C3.53125 4 4 3.5625 4 3C4 2.46875 3.53125 2 3 2C2.4375 2 2 2.46875 2 3C2 3.5625 2.4375 4 3 4ZM7 3C7 2.46875 6.53125 2 6 2C5.4375 2 5 2.46875 5 3C5 3.5625 5.4375 4 6 4C6.53125 4 7 3.5625 7 3ZM9 4C9.53125 4 10 3.5625 10 3C10 2.46875 9.53125 2 9 2C8.4375 2 8 2.46875 8 3C8 3.5625 8.4375 4 9 4Z" fill="url(#paint0_linear_1099_3306)"/>
+<defs>
+<linearGradient id="paint0_linear_1099_3306" x1="8" y1="-1" x2="8" y2="80" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCCFA0"/>
+<stop offset="1" stop-color="#E9D7D0"/>
+</linearGradient>
+</defs>
+<script xmlns=""/></svg>
