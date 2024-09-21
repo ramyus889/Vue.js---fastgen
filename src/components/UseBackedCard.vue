@@ -6,7 +6,6 @@
       <div class="flex gap-20 mt-[53px]">
         <img src="/Group1.png" alt="" class="max-w-[140px] w-full object-contain" />
         <img src="/Rainfall.png" alt="" class="max-w-[140px] w-full object-contain" />
-        <img src="/Mischief.svg" alt="" class="max-w-[140px] w-full object-contain" />
         <img src="/Capital.png" alt="" class="max-w-[140px] w-full object-contain" />
       </div>
     </div>
