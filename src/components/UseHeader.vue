@@ -4,7 +4,7 @@ import UseDrawer from './UseDrawer.vue';
 <template>
   <header class="px-[24px] py-[16px] backdrop-blur-[50px] fixed top-0 left-0 right-0">
     <div class="flex items-center justify-between">
-      <div class=""><img src="/fastgen.svg" alt="" width="113px" /></div>
+      <a href="#" class=""><img src="/fastgen.svg" alt="" width="113px" /></a>
 
       <div class="md:flex hidden gap-12">
         <a href="#" class="hover:underline">Features</a>
