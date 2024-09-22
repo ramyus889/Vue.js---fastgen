@@ -1,5 +1,5 @@
 <script setup>
-// import UseAutosync from '@/components/UseAutosync.vue';
+import UseAutosync from '@/components/UseAutosync.vue';
 import UseBackedCard from '@/components/UseBackedCard.vue';
 import UseBuilding from '@/components/UseBuilding.vue';
 import UseConditions from '@/components/UseConditions.vue';
