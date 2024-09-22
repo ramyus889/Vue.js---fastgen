@@ -1,5 +1,8 @@
 <script setup>
+// import UseAutosync from '@/components/UseAutosync.vue';
 import UseBackedCard from '@/components/UseBackedCard.vue';
+import UseBuilding from '@/components/UseBuilding.vue';
+import UseConditions from '@/components/UseConditions.vue';
 import UseCreateAPI from '@/components/UseCreateAPI.vue';
 import UseDebugAPI from '@/components/UseDebugAPI.vue';
 import UseMain from '@/components/UseMain.vue';
@@ -12,6 +15,9 @@ import UseMain from '@/components/UseMain.vue';
       <UseBackedCard />
       <UseCreateAPI />
       <UseDebugAPI />
+      <UseBuilding />
+      <UseConditions />
+      <UseAutosync />
     </div>
   </div>
 </template>
