@@ -7,7 +7,7 @@ import UseDrawer from './UseDrawer.vue';
       <a href="#" class=""><img src="/fastgen.svg" alt="" width="113px" /></a>
 
       <div class="md:flex hidden gap-12">
-        <a href="#" class="hover:underline">Features</a>
+        <a href="#features" class="hover:underline">Features</a>
         <a href="#" class="hover:underline">Pricing</a>
         <a href="#" class="hover:underline">Blog</a>
         <a href="#" class="hover:underline">Changelog</a>
