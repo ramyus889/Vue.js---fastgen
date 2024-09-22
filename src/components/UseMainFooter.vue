@@ -3,7 +3,11 @@
   <div class="flex place-content-center mt-[216px] px-5">
     <div class="">
       <div class="flex flex-col gap-[87px]">
-        <div data-aos="fade-up" data-aos-delay="100" class="text-[68px] text-center font-[700]">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="text-[68px] sm:leading-[86px] leading-[80px] text-center font-[700]"
+        >
           Start building now
         </div>
         <div class="flex place-content-center">
