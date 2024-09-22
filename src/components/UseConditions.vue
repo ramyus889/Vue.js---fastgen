@@ -61,7 +61,7 @@
                 <div class=""><img src="/functions.svg" alt="" /></div>
                 <div class="text-[20px] font-[700]">Functions</div>
               </div>
-              <div class="flex flex-col gap-[15px] pb-10">
+              <div class="flex flex-col gap-[15px] pb-10 pe-5">
                 <div class="text-[#8b8f98] font-bold">
                   Select from 50+ functions to manipulate data exactly how you want it to.
                 </div>
