@@ -53,11 +53,17 @@ const items = [
 <template>
   <div class="flex place-content-center px-5">
     <div class="">
-      <div class="text-center text-[#bdc4d3] text-[46px] font-[600] mt-[92px]">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="100"
+        class="text-center text-[#bdc4d3] text-[46px] font-[600] mt-[92px]"
+      >
         Loved by builders around the world
       </div>
       <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[21px] items-start mt-[32px]">
         <div
+          data-aos="fade-up"
+          data-aos-delay="300"
           v-for="item in items"
           :key="item.id"
           class="flex flex-col gap-5 bg-[#2b2b2b] rounded-[14px] px-[29px] py-[29px]"

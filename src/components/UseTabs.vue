@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div data-aos="fade-up" data-aos-delay="300" class="card">
     <Tabs value="0">
       <TabList class="">
         <div class="flex w-full place-content-center">

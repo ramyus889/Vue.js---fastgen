@@ -26,7 +26,7 @@ const items = [
 <template>
   <div class="flex place-content-center mt-[135px] px-5">
     <div class="">
-      <div class="text-center text-[46px] font-[900]">
+      <div data-aos="fade-up" data-aos-delay="100" class="text-center text-[46px] font-[900]">
         Create APIs in
         <span
           class="bg-gradient-to-t to-[#6e7dff] from-white bg-clip-text text-transparent font-[900]"
@@ -37,6 +37,8 @@ const items = [
         class="flex lg:flex-nowrap flex-wrap place-content-center items-center gap-[31px] mt-[32px]"
       >
         <div
+          data-aos="fade-up"
+          data-aos-delay="300"
           v-for="item in items"
           :key="item.id"
           class="pt-[26px] ps-[36px] bg-[#2b2b2b] rounded-2xl"

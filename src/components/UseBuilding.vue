@@ -2,7 +2,7 @@
 <template>
   <div class="flex place-content-center mt-[208px] px-5">
     <div class="">
-      <div class="text-center text-[46px] font-[700]">
+      <div data-aos="fade-up" data-aos-delay="100" class="text-center text-[46px] font-[700]">
         Building Dreams,
         <span
           class="bg-gradient-to-r from-[#FF926F] to-[#F9F871] bg-clip-text text-transparent font-[700]"
@@ -11,6 +11,8 @@
       </div>
       <div class="flex flex-col gap-4">
         <div
+          data-aos="fade-up"
+          data-aos-delay="300"
           class="mt-[60px] flex md:flex-row flex-col md:gap-10 gap-5 lg:ps-[60px] ps-[20px] pt-[33px] bg-[#2b2b2b] rounded-[16px]"
         >
           <div class="flex flex-col gap-[20px] max-w-[300px]">
@@ -35,6 +37,8 @@
 
         <div class="flex lg:flex-row flex-col gap-4">
           <div
+            data-aos="fade-up"
+            data-aos-delay="500"
             class="flex lg:flex-col max-[768px]:flex-col-reverse gap-[20px] lg:px-[60px] px-[20px] pt-[33px] bg-[#2b2b2b] rounded-[16px]"
           >
             <div class="">
@@ -58,6 +62,8 @@
           </div>
 
           <div
+            data-aos="fade-up"
+            data-aos-delay="700"
             class="flex lg:flex-col max-[768px]:flex-col justify-between gap-[20px] ps-[30px] pt-[33px] bg-[#2b2b2b] rounded-[16px]"
           >
             <div class="flex flex-col gap-[20px] max-w-[350px]">
