@@ -7,7 +7,12 @@
       class="md:!w-80 lg:!w-[30rem]"
     >
       <div class="flex flex-col gap-5">
-        <a href="#features" class="hover:underline transition-all duration-700">Features</a>
+        <a
+          href="#features"
+          @click="visibleRight = false"
+          class="hover:underline transition-all duration-700"
+          >Features</a
+        >
         <a href="#" class="hover:underline transition-all duration-700">Pricing</a>
         <a href="#" class="hover:underline transition-all duration-700">Blog</a>
         <a href="#" class="hover:underline transition-all duration-700">Changelog</a>
