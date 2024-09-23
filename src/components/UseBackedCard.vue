@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <div id="features" class="flex place-content-center mt-[64px] px-5">
+  <div class="flex place-content-center mt-[64px] px-5">
     <div class="">
       <div
         data-aos="fade-up"

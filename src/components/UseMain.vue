@@ -1,5 +1,10 @@
-<script setup>
-import UseTabs from './UseTabs.vue';
+<script>
+export default {
+  name: 'UseMain',
+  mounted() {
+    document.title = 'Fastgen dev';
+  }
+};
 </script>
 <template>
   <div class="flex place-content-center mt-[160px] px-5">
