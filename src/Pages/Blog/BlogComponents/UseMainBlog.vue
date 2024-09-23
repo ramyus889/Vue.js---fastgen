@@ -11,7 +11,7 @@ export default {
         tag: 'Events',
         image: '/blog1.png',
         title: 'Product Hunt x Fastgen',
-        link: '/blog1',
+        link: '/UseBlogLink1',
         data: 'December 22, 2023'
       },
       {
@@ -19,7 +19,7 @@ export default {
         tag: 'Launch Week 1',
         image: '/blog2.webp',
         title: 'Fastgen Launch Week Day 5',
-        link: '/blog1',
+        link: '/UseBlogLink2',
         data: 'December 14, 2023'
       },
       {
@@ -27,7 +27,7 @@ export default {
         tag: 'Launch Week 1',
         image: '/blog3.png',
         title: 'Fastgen Launch Week Day 4',
-        link: '/blog1',
+        link: '/UseBlogLink3',
         data: 'November 25, 2023'
       },
       {
@@ -35,7 +35,7 @@ export default {
         tag: 'Launch Week 1',
         image: '/blog4.png',
         title: 'Fastgen Launch Week Day 3',
-        link: '/blog1',
+        link: '/UseBlogLink4',
         data: 'November 23, 2023'
       },
       {
@@ -43,7 +43,7 @@ export default {
         tag: 'Launch Week 1',
         image: '/blog5.png',
         title: 'Fastgen Launch Week Day 2',
-        link: '/blog1',
+        link: '/UseBlogLink5',
         data: 'November 22, 2023'
       },
       {
@@ -51,7 +51,7 @@ export default {
         tag: 'Launch Week 1',
         image: '/blog6.webp',
         title: 'Fastgen Launch Week Day 1',
-        link: '/blog1',
+        link: '/UseBlogLink6',
         data: 'November 22, 2023'
       },
       {
@@ -59,7 +59,7 @@ export default {
         tag: 'Events',
         image: '/blog7.png',
         title: 'Product Hunt + Fastgen Hackathon',
-        link: '/blog1',
+        link: '/UseBlogLink7',
         data: 'October 26, 2023'
       },
       {
@@ -67,7 +67,7 @@ export default {
         tag: 'Events',
         image: '/blog8.png',
         title: 'Fastgen Hackathon Winner Announcement',
-        link: '/blog1',
+        link: '/UseBlogLink8',
         data: 'September 29, 2023'
       },
       {
@@ -75,7 +75,7 @@ export default {
         tag: 'Events',
         image: '/blog9.webp',
         title: 'Join the Fastgen Hackathon in September 2023',
-        link: '/blog1',
+        link: '/UseBlogLink9',
         data: 'August 25, 2023'
       }
     ];
@@ -91,8 +91,8 @@ export default {
     <div class="">
       <div class=""></div>
       <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[51px]">
-        <a
-          href="#"
+        <RouterLink
+          :to="item.link"
           data-aos="fade-up"
           data-aos-delay="100"
           v-for="item in items"
@@ -117,7 +117,7 @@ export default {
               </div>
             </div>
           </div>
-        </a>
+        </RouterLink>
       </div>
     </div>
   </div>
