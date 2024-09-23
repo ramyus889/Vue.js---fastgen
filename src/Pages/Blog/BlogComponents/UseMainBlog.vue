@@ -91,7 +91,14 @@ export default {
     <div class="">
       <div class=""></div>
       <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[51px]">
-        <div data-aos="fade-up" data-aos-delay="100" v-for="item in items" :key="item.id" class="">
+        <a
+          href="#"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          v-for="item in items"
+          :key="item.id"
+          class=""
+        >
           <div class="border-[1px] border-[#6B656F] rounded-[15px] md:max-w-[320px]">
             <div class=""><img :src="item.image" alt="" class="rounded-t-[15px]" /></div>
             <div class="py-[5px] px-[8px] rounded-[5px] bg-[#7a6aff4d]">
@@ -110,7 +117,7 @@ export default {
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>
