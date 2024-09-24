@@ -12,7 +12,6 @@ import AppChange from '@/Pages/ChangeLog/AppChange.vue';
 import UseChangeLink1 from '@/Pages/ChangeLog/ChangeLink/UseChangeLink1.vue';
 import UseChangeLink2 from '@/Pages/ChangeLog/ChangeLink/UseChangeLink2.vue';
 import UseChangeLink3 from '@/Pages/ChangeLog/ChangeLink/UseChangeLink3.vue';
-import AppLogin from '@/Pages/Login/AppLogin.vue';
 import UseHome from '@/RouteComponents/UseHome.vue';
 
 export const routes = [
@@ -27,10 +26,6 @@ export const routes = [
   {
     path: '/ChangeLog',
     component: AppChange
-  },
-  {
-    path: '/Login',
-    component: AppLogin
   },
   {
     path: '/UseBlogLink1',

@@ -11,14 +11,6 @@ import UseDrawer from './UseDrawer.vue';
           <RouterLink to="/" class="hover:underline">Home</RouterLink>
           <RouterLink to="/Blog" class="hover:underline">Blog</RouterLink>
           <RouterLink to="/Changelog" class="hover:underline">Changelog</RouterLink>
-
-          <RouterLink to="/Login" class="hover:underline">Log in</RouterLink>
-          <RouterLink
-            to="/Login"
-            class="bg-gradient-to-r to-[#673FDF] from-[#8295FF] text-center px-[16px] py-[8px] rounded-full text-[13px]"
-          >
-            Sign up
-          </RouterLink>
         </div>
         <div class="md:hidden block">
           <UseDrawer />
