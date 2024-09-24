@@ -7,12 +7,12 @@ import UseDrawer from './UseDrawer.vue';
       <RouterLink to="/" class=""><img src="/fastgen.svg" alt="" width="113px" /></RouterLink>
 
       <div class="flex gap-4 items-center">
-        <div class="md:flex hidden gap-4 items-center">
+        <div class="sm:flex hidden gap-4 items-center">
           <RouterLink to="/" class="hover:underline">Home</RouterLink>
           <RouterLink to="/Blog" class="hover:underline">Blog</RouterLink>
           <RouterLink to="/Changelog" class="hover:underline">Changelog</RouterLink>
         </div>
-        <div class="md:hidden block">
+        <div class="sm:hidden block">
           <UseDrawer />
         </div>
       </div>
