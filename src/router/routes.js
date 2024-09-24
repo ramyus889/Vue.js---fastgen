@@ -9,6 +9,9 @@ import UseBlogLink7 from '@/Pages/Blog/BlogLink/UseBlogLink7.vue';
 import UseBlogLink8 from '@/Pages/Blog/BlogLink/UseBlogLink8.vue';
 import UseBlogLink9 from '@/Pages/Blog/BlogLink/UseBlogLink9.vue';
 import AppChange from '@/Pages/ChangeLog/AppChange.vue';
+import UseChangeLink1 from '@/Pages/ChangeLog/ChangeLink/UseChangeLink1.vue';
+import UseChangeLink2 from '@/Pages/ChangeLog/ChangeLink/UseChangeLink2.vue';
+import UseChangeLink3 from '@/Pages/ChangeLog/ChangeLink/UseChangeLink3.vue';
 import AppLogin from '@/Pages/Login/AppLogin.vue';
 import UseHome from '@/RouteComponents/UseHome.vue';
 
@@ -64,5 +67,17 @@ export const routes = [
   {
     path: '/UseBlogLink9',
     component: UseBlogLink9
+  },
+  {
+    path: '/changeLink1',
+    component: UseChangeLink1
+  },
+  {
+    path: '/changeLink2',
+    component: UseChangeLink2
+  },
+  {
+    path: '/changeLink3',
+    component: UseChangeLink3
   }
 ];
